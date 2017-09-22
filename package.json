@@ -1,0 +1,19 @@
+{
+  "name": "carcruzcast-site",
+  "version": "1.0.0",
+  "description": "carcruzcast site",
+  "author": "Carlos Cruz",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
